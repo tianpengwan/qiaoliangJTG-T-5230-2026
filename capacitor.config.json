@@ -1,0 +1,14 @@
+{
+  "appId": "com.qiaoliang.jtg5230",
+  "appName": "桥梁评定",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true
+  },
+  "server": {
+    "androidScheme": "http"
+  }
+}

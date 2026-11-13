@@ -1,0 +1,31 @@
+{
+  "name": "bridge-assessment-jtg5230",
+  "version": "2.0.0",
+  "description": "公路桥梁技术状况评定系统（JTG/T 5230—2026），Node.js + 内置 SQLite，支持手机端与 Docker/飞牛 NAS 部署",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node assess5230.test.js",
+    "mobile:sync": "node scripts/sync-web.js && cap sync android",
+    "mobile:open": "cap open android",
+    "mobile:apk": "node scripts/sync-web.js && cap sync android && cd android && gradlew.bat assembleDebug"
+  },
+  "dependencies": {
+    "docx": "^9.7.1",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/assets": "^4.0.0",
+    "@capacitor/cli": "^8.6.2",
+    "@capacitor/core": "^8.6.2"
+  }
+}

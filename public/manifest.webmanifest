@@ -1,0 +1,17 @@
+{
+  "name": "公路桥梁技术状况评定 JTG/T 5230—2026",
+  "short_name": "桥梁评定",
+  "description": "依据 JTG/T 5230—2026 的公路桥梁技术状况评定与报告导出工具",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#eef2f7",
+  "theme_color": "#0f3b66",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

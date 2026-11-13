@@ -1,0 +1,31 @@
+# Dependencies and local configuration
+node_modules/
+.env
+
+# Runtime-generated files
+exports/
+uploads/
+server.log
+data/*.db-wal
+data/*.db-shm
+
+# Downloaded installers and package archives
+*.msi
+*.tgz
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Capacitor / Android build outputs
+www/
+android/local.properties
+android/.gradle/
+android/build/
+android/app/build/
+android/capacitor-cordova-android-plugins/
+node_modules/
+
